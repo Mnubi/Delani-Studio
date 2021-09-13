@@ -15,23 +15,23 @@ body {
     color: white;
     height: 300px;
 }
-
 .portfolio {
     padding: 20px;
     margin: 200px;
 }
 .portfolio > .row2{
   padding-top: 220px;
+  padding-bottom: 50px;
+}
+.data > .form{
+    padding-top: -325px;
 }
 .form{
     background-image: url(../Images/c_image.jpg);
     background-position: center;
     color: white;
-    height: 450px;
-    padding-top: 10px;
-    width: 70%;
-    margin-left: 200px;
-    
+    height: 600px;
+    padding: 150px;
 }
 .form h1{
     text-align: center;
@@ -48,3 +48,16 @@ body {
     background-color: transparent;
     border-color: white;
 }
+​.footer> .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
