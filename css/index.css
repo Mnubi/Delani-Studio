@@ -2,14 +2,14 @@ body {
     background-color: rgb(250, 255, 252);
 }
 .landingpage{
-    background-image: url(/Images/h_img.jpg);
+    background-image: url(../Images/h_img.jpg);
     background-position: center;
     color: rgb(250, 255, 252);
     font-weight: 900;
     
 }
 .services{
-    background-image: url(/Images/s_image.jpg);
+    background-image: url(../Images/s_image.jpg);
     background-size: cover;
     font-weight: 500;
     color: white;
@@ -24,7 +24,7 @@ body {
   padding-top: 220px;
 }
 .form{
-    background-image: url(/Images/c_image.jpg);
+    background-image: url(../Images/c_image.jpg);
     background-position: center;
     color: white;
     height: 450px;
