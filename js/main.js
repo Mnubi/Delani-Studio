@@ -1,30 +1,17 @@
 $(document).ready(function (){
     
-    
-    //show and hide paragraph on click
+
+    //Allow display of paragraph on click from hidden mode
 
     $("#design").on('click',function () {
         $("#design").hide();
         $(designpg).show(); 
       
     });
-
-    $("#design").on('click',function () {
-        $("#design").hide();
-        $(designpg).show(); 
-      
-    });
-
     
     $('#dev').on('click',function  () {
         $("#devpg").show();
         $('#dev').hide();
-        
-    });
-
-    $('#design').on('click',function  () {
-        $("#dev").show();
-        $('#product').show();
         
     });
 
@@ -34,20 +21,32 @@ $(document).ready(function (){
         
     });
 
+//this will allow return of logo after paragraph display
+    $('#designpg').on('click',function  () {
+        $("#design").show();
+        $('#designpg').hide();
+        
+    });
+
+    $('#devpg').on('click',function  () {
+        $("#dev").show();
+        $('#devpg').hide();
+        
+    });
+
+    $('#productpg').on('click',function  () {
+        $("#product").show();
+        $('#productpg').hide();
+        
+    });
 
 
 
-
-
-
-
-
-// ///
 // $(document).ready(function () {
 //     $('#form').on('submit', function () {
 //         e.preventDefault();
 
-//         let name=$("#name");
+//         let name= getEleme
 //         let email=$("#email");
 //         let message=$("#message");
 
