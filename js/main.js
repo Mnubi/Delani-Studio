@@ -40,24 +40,21 @@ $(document).ready(function (){
         
     });
 
+    (document).ready(function (){
+        $("#form").submit(function(event) {
+            event.preventDefault();
 
+      var userName=$("#name").val();
+      var message=$("#message").val();
 
-// $(document).ready(function () {
-//     $('#form').on('submit', function () {
-//         e.preventDefault();
+      if(userName() && message()){
+        alert("Hello "+ userName +". We have received your message. Thank you for reaching out to us.");
+      }
+      else{
+        alert("please fill all fields");
+      }
+    }  
 
-//         let name= getEleme
-//         let email=$("#email");
-//         let message=$("#message");
-
-//         ) {
-//      if (name="" email="" message="") {
-//                 alert('We have received your message.Our team will get back to you as soon as possible. Thank you for reaching out to us');
-//                 $('form.contact');
-//             } else {
-//                 alert("All fields are required");
-//             }
-//         };
-//     };
 
 });
+
