@@ -1,6 +1,5 @@
 $(document).ready(function (){
     
-
     //Allow display of paragraph on click from hidden mode
 
     $("#design").on('click',function () {
@@ -40,21 +39,19 @@ $(document).ready(function (){
         
     });
 
-    (document).ready(function (){
-        $("#form").submit(function(event) {
-            event.preventDefault();
 
-      var userName=$("#name").val();
-      var message=$("#message").val();
-
-      if(userName() && message()){
-        alert("Hello "+ userName +". We have received your message. Thank you for reaching out to us.");
-      }
-      else{
-        alert("please fill all fields");
-      }
-    }  
-
-
+    
 });
 
+    //user interface ouutput
+
+    $(document).ready(function(){
+
+        // var name=$("name").val();
+        let name =(document.getElementById("name").value);
+                
+
+        $("form").submit(function(){
+          alert("Hello, " + name + "we have received your message. Thank you for reaching out to us." + name);
+        });
+    });
